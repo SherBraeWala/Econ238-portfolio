@@ -9,57 +9,56 @@ subtitle: "A one-page guide to reading data center headlines"
 date: 2026-09-06
 ---
 
-<!--
-NOTE TO SELF — DELETE BEFORE PUBLISHING
-Match the frontmatter fields above to whatever your other econ238-portfolio
-pages use. If your existing pages use `layout: default` or a `permalink:`
-field, copy that exactly — mismatched frontmatter is the usual reason a
-Jekyll page fails to render.
-All tables and bar charts below are plain markdown/unicode and will render
-anywhere. If your theme supports Mermaid, the optional diagram in Section 5
-can be swapped in; if not, the table version is already there.
--->
-
 # What a Gallon Actually Tells You
 
 **A guide to reading the next data center headline you see.**
 
 > NEW AI DATA CENTER WILL CONSUME 800,000 GALLONS OF WATER EVERY DAY
 
-*[YOUR OPENING — 3–4 sentences. Concede the reader's reaction is reasonable; that
-number sounds enormous and they are not stupid for reacting to it. Then state
-your thesis in one line: the number is real, but by itself it tells you almost
-nothing, and the things worth worrying about are hiding underneath it.]*
+Eight hundred thousand gallons a day is a lot of water. If that headline made you
+uneasy, you were not being unreasonable. But a number that large is only the
+beginning of a question, not the end of one, and the honest answer to "should I
+be worried about this?" turns out to depend on things the headline never
+mentions: whether the water comes back, what the facility is cooled with, who
+pays for the power lines, and how many more of these get built. This page is
+about how to ask those questions.
 
 ---
 
 ## 1. The same number, two institutions
 
-Here is that headline figure next to something in the same city as most readers
-of this page.
+Here is that headline figure next to an institution most people in Rochester
+walk past without alarm.
 
 | | Daily water | Land | Buildings | Grid electricity |
 |---|---|---|---|---|
 | **Colossus I** (xAI, Memphis) | ~812,500 gal/day <br><sub>MLGW data, March 2026</sub> | 217 acres | 785,000 sq ft | 150 MW service |
 | **University of Rochester / UR Medicine** | ~685,000 gal/day <br><sub>core campus, UR utilities guide</sub> | 700+ acres | 15M+ sq ft | ~225M kWh/yr |
 
-Water use, per day, same order of magnitude:
-
 ```
-Colossus I   ████████████████████████  812,500 gal
-U of R       ████████████████████      685,000 gal
+Colossus I   ████████████████████████  812,500 gal/day
+U of R       ████████████████████      685,000 gal/day
 ```
 
-*[YOUR PARAGRAPH — the point is not "therefore data centers are fine." The point
-is that a number capable of producing a protest at one address produces nothing
-at the other. Ask why. This is where you introduce "as compared to what?" as the
-reader's first tool.]*
+These are the same order of magnitude. A hospital system and university that
+nobody protests uses nearly as much water every day as the AI facility that
+generated national coverage.
+
+That comparison is not an argument that data centers are harmless. It is an
+argument that the number by itself was never doing the work we thought it was
+doing. Large institutions use large amounts of water. We already live alongside
+infrastructure at this scale and mostly do not notice it. So when a figure
+provokes outrage at one address and indifference at another, something other
+than the figure is driving the reaction, and it is worth knowing what.
+
+The real question is not whether *this* facility uses a lot. It is what happens
+when we add many of them.
 
 ---
 
 ## 2. Withdrawal is not consumption
 
-The single most useful distinction on this page.
+This is the most useful distinction on the page, and almost no headline makes it.
 
 | Term | What it means | Does the water come back? |
 |---|---|---|
@@ -69,24 +68,28 @@ The single most useful distinction on this page.
 
 The University reports roughly 250 million gallons of domestic water a year and
 roughly 250 million gallons of sanitary flow a year. Those are largely the same
-water, measured on the way in and on the way out. Adding them into "half a
-billion gallons" would describe a quantity nobody used.
+water, counted on the way in and again on the way out. Adding them together to
+get half a billion gallons would describe a quantity that no one ever used. The
+University also holds a permit allowing discharge of up to 45 million gallons a
+day of non-contact cooling water into the Genesee River — a ceiling on water
+being *returned*, not drinking water consumed.
 
-The University also holds a permit allowing discharge of up to 45 million gallons
-a day of non-contact cooling water into the Genesee River. A ceiling on returning
-water is not a measure of drinking water consumed.
-
-**Cooling design decides how much is truly consumed:**
+Water that is withdrawn, used, and returned is a fundamentally different thing
+from water that is evaporated and gone. Which one a facility does is determined
+by how it is cooled:
 
 | Cooling type | Water consumed | Electricity used |
 |---|---|---|
 | Evaporative | High | Lower |
 | Closed-loop / dry | Very low | Higher |
 
-*[YOUR PARAGRAPH — draw the trade explicitly: water and power are substitutes in
-cooling, so "uses less water" and "uses less electricity" are usually not the
-same facility. A reader who takes away only this section has still gained
-something real.]*
+There is no design that minimizes both. Water and electricity are substitutes in
+cooling, so a facility that solves its water problem has made its power problem
+worse, and vice versa. Anyone promising you a data center that is easy on both is
+selling something.
+
+This also means "how much water does it use?" is the wrong question. "How much
+does it consume, and what did it burn to consume less?" is the right one.
 
 ---
 
@@ -102,65 +105,118 @@ kWh/year per US household.
 | 1.31 billion kWh/yr (150 MW run continuously) | ≈ 125,000 households |
 | 225 million kWh/yr (U of R) | ≈ 21,000 households |
 
-*[YOUR PARAGRAPH — note what this does to each headline. "As much water as a
-city" collapses to a neighborhood. "As much electricity as a city" survives the
-translation much better. One scary number shrinks under scrutiny and one does
-not, and telling the reader *which* is the whole service you are providing.]*
+Watch what translation does. "As much water as a small city" becomes about 2,700
+households — a neighborhood, in a metro area with something like a quarter of a
+million of them. That headline shrinks badly under scrutiny.
+
+The electricity headline does not. A 150 MW load running continuously is on the
+order of 125,000 households of demand, and Colossus I has another 150 MW
+increment planned. That one survives translation, and it is the number that
+should hold your attention.
+
+So of the two scary figures in the news, one mostly dissolves and one gets worse
+the closer you look. Knowing which is which is the entire service this page is
+trying to provide.
+
+And here is where the aggregate matters. One facility drawing a neighborhood's
+worth of water is unremarkable. A hundred of them, sited in the same handful of
+regions with cheap land and cheap power, is a different proposition entirely.
+Almost nobody is modeling that cumulative path, and the absence of that modeling
+is a better reason for concern than any single project's permit.
 
 ---
 
 ## 4. Now the part that deserves the alarm
 
-*[SECTION INTRO — one line signalling the turn: you have spent three sections
-lowering the temperature, and you are about to raise it.]*
+Three things underneath the headlines are genuine problems. None of them is
+"large volume."
 
-**Water.** *[Your paragraph: municipal water is typically priced at the cost of
-delivering it, not at its scarcity value. A large buyer can pay every bill in
-full and still leave a stressed aquifer worse off. This is a pricing failure, not
-a volume problem — which means the remedy is a price, not a ban.]*
+**Freshwater is the wrong input.** The objection worth making is not that data
+centers use water, but that they use *drinking* water — treated to a standard no
+cooling tower requires, drawn from aquifers and municipal systems that
+communities depend on. The alternative is not exotic. In Memphis, MLGW has
+described a recycled-wastewater facility designed to produce up to 13 million
+gallons a day of reclaimed industrial water, with xAI stating it intends to spend
+more than $80 million toward it. That is the shape of a real answer: reclaimed
+water, closed loops, non-potable sources. Whether it gets built on time is a
+separate and contested question — but it demonstrates that the water problem is
+an engineering and financing problem, not a law of nature.
 
-**The marginal kilowatt-hour.** *[Your paragraph: adding load to a grid where gas
-sets the margin means the additional electricity is fossil-generated regardless
-of what clean-power contracts the company has signed. Green procurement and
-marginal emissions are different things.]*
+**The marginal kilowatt-hour is dirtier than the contract says.** Adding a large
+load to a grid where natural gas sets the margin means the additional electricity
+is gas-fired, whatever clean-power agreements the company has signed. This is why
+the water fix and the carbon fix pull against each other: closed-loop cooling
+saves water by demanding more power from exactly that margin. Pairing facilities
+with dedicated renewable generation helps, but a data center runs around the
+clock and solar does not, so without serious storage the grid still fills the
+gap. The cleaner the local grid, the better every one of these trades gets — which
+makes grid decarbonization the highest-leverage policy here, and it has nothing
+to do with data centers specifically.
 
-**Who pays for the wires.** *[Your paragraph: new substations and transmission
-get paid for by somebody. Whether that is the company or every ratepayer in the
-region is a distributional choice made by a public utility commission, not a
-technical fact. In Memphis, MLGW reported the transmission work was to be built
-at xAI's expense — that is the kind of term residents should be reading.]*
+**Somebody pays for the wires.** New substations and transmission are expensive,
+and whether that cost lands on the company or on every ratepayer in the region is
+a decision made by a utility commission, not a fact of engineering. It should
+land on the firm. A private company building a private facility for private
+profit can finance its own infrastructure, through debt or equity, and in Memphis
+MLGW reported that the transmission improvements and new substation were to be
+built at xAI's expense. That is the term residents should be reading for, and its
+absence is the clearest signal that a deal is bad for the community.
+
+One consequence follows and should be said plainly: as demand rises against a
+supply of water and generating capacity that expands only slowly, prices go up.
+That is not the harm. That is the mechanism. A price that reflects scarcity is
+what makes reclaimed water, closed loops, and off-peak operation worth paying
+for. A price that reflects only the cost of delivery guarantees that nobody
+bothers.
 
 ---
 
 ## 5. What happens if we say no
 
-Restricting a facility does not delete the demand for it. It relocates it.
+Refusing a facility does not delete the demand for it. It moves it.
 
 | Policy | First-order effect | What comes next |
 |---|---|---|
-| Moratorium (NY, July 2026) | No local construction | Demand moves to a state with a dirtier grid and weaker review |
-| Site far from population | Fewer neighbors affected | Thin transmission → on-site generation. Colossus 2 relied on 59 gas turbines, mostly across the Mississippi line (Reuters, July 2026), with a nitrogen-oxides dispute attached |
-| Charge scarcity prices for water and grid capacity | Higher cost to operator | Closed-loop cooling and off-peak operation become worth paying for |
+| Moratorium (NY, July 2026) | No local construction | Demand shifts to states with dirtier grids and weaker review |
+| Site far from population | Fewer neighbors affected | Thin transmission → on-site generation. Colossus 2 relied on 59 turbines, mostly across the Mississippi state line (Reuters, July 2026), with a nitrogen-oxides dispute attached |
+| Price water and grid capacity at scarcity | Higher operating cost | Closed-loop cooling, reclaimed water, and off-peak operation become worth the investment |
 
-*[YOUR PARAGRAPH — this is your Nth-order consequence and the professor asks for
-at least one. Emphasize that the turbine outcome is what "move it away from
-people" can actually produce: more combustion, next to fewer and poorer people
-with less capacity to object. Do not present this as an argument against
-restriction. Present it as the cost of restriction, which has to be weighed
-against its benefit.]*
+The middle row deserves attention because it is the intuitive policy. Put them
+where nobody lives. But empty places have empty grids, and a facility that cannot
+get transmission generates its own power on site. "Move it away from people" can
+therefore produce *more* combustion, next to fewer and poorer people with less
+capacity to object. That is not an argument against restriction. It is the cost
+of restriction, and it has to be weighed rather than assumed away.
+
+There is a larger version of the same logic. Compute capacity is the
+infrastructure the next several decades of economic activity will be built on. A
+region that blocks all of it does not avoid the tradeoff; it exports the
+investment and keeps the disadvantage. That is a real consideration. It is not,
+however, a blank check — "we will fall behind" is an argument for building
+capacity somewhere, not an argument against making anyone pay for their own
+substation.
+
+The version that survives scrutiny: restriction and encouragement are both
+choices with consequences, and the third row of that table is the one that
+actually changes behavior instead of relocating it.
 
 ---
 
 ## 6. Three questions to ask instead
 
-*[Rewrite these in your own words once the piece is drafted — they should follow
-from your sections, not sit on top of them.]*
+The next time a project is proposed near you, these will tell you more than any
+headline figure:
 
-1. **Is that withdrawal or consumption**, and what is the cooling design?
-2. **Who pays for the new grid infrastructure** — the company or the ratepayers?
-3. **Does the price of water and power here reflect scarcity**, or the cost of delivery?
+1. **Is that withdrawal or consumption** — and is the facility cooled with
+   drinking water, reclaimed water, or a closed loop?
+2. **Who is paying for the new substations and transmission** — the company, or
+   every ratepayer in the region?
+3. **Does the price of water and power here reflect scarcity**, or only the cost
+   of delivery?
 
-*[CLOSING — 2–3 sentences. The reader should leave with a tool, not a verdict.]*
+None of these produces a verdict. Together they produce something better: the
+ability to tell the difference between a project that imposes real costs on
+people who never agreed to bear them, and a project that is simply large.
 
 ---
 
@@ -176,5 +232,5 @@ from your sections, not sit on top of them.]*
 - Office of Governor Kathy Hochul — July 2026 hyperscale data center moratorium
 - EPA WaterSense and EIA — household water and electricity averages used in Section 3
 
-<sub>Written for Econ 238, University of Rochester. All figures linked to public
-sources; back-of-envelope calculations state their assumptions.</sub>
+<sub>Written for Econ 238, University of Rochester. Back-of-envelope calculations
+state their assumptions.</sub>
