@@ -3,11 +3,6 @@
 ## Assignments
 -Assignment 1 
 ---
-layout: page
-title: "What a Gallon Actually Tells You"
-subtitle: "A one-page guide to reading data center headlines"
-date: 2026-09-06
----
 
 # What a Gallon Actually Tells You
 
