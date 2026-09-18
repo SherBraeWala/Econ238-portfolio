@@ -1,8 +1,3 @@
----
-layout: default
-title: "Can America Still Build? Permitting, Lawsuits, and the Clean-Energy Buildout"
-permalink: /week3/
----
 
 # Can America Still Build?
 
