@@ -11,12 +11,8 @@ America wants a cleaner energy system: more transmission lines, nuclear plants, 
 
 I talked through these questions with my partner: whether any American institution is trusted across political lines, whether the U.S. needs to build faster like China, and whether fixing environmental-review law would actually speed anything up.
 
-<audio controls preload="metadata" style="width:100%;">
-  <source src="{{ '/audio/week3-conversation.m4a' | relative_url }}" type="audio/mp4">
-  Your browser does not support embedded audio.
-</audio>
 
-[Direct link to the recording]({{ '/audio/week3-conversation.m4a' | relative_url }})
+https://drive.google.com/file/d/1zNV6JtE4zPLOiK6QOYOu8PS3nyMB2mZu/view?usp=sharing
 
 ---
 
