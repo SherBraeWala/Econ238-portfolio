@@ -1,8 +1,8 @@
 # Arjun Aujla - Econ238-portfolio
 
 ## Assignments
--Assignment 1 
--Assignmnet 3
+-assignment-01-Week1.md
+-assignment-03-week3.md
 
 
 
