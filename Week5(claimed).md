@@ -1,7 +1,6 @@
 ---
 title: "Discount-Rate Surgery on the Social Cost of Carbon"
 description: "Reproduce a social cost of carbon calculation, then change the discount rate, horizon, growth, climate sensitivity and damage curvature to see what drives the number."
-image: cover.png
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
