@@ -1,7 +1,6 @@
 ---
 title: "Who Cut America's Power-Plant Emissions? Fracking, Wind & Solar, and the Methane Fine Print"
 description: "A counterfactual decomposition of the drop in U.S. power-sector CO2 from 2005 to 2024, and how methane leakage changes the credit given to shale gas."
-image: cover.png
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
