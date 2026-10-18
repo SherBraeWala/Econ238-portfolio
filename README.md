@@ -8,7 +8,7 @@
 -   [Week 5-scc Cover](coverclaim.png)
 - [Week 5-shale](week5-shale.md)
 -   [Week 5-shale Cover](covercustom.png)
--   
+-   [Week 7](week7.md)
 -   [Week 7 Poster](Rettner.png)
 
 
