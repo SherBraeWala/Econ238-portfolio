@@ -1,6 +1,5 @@
 ---
 title: "Week 7 | Oregon Spotted Owl Rescue Pilot"
-permalink: /week7/
 ---
 
 # KILL ONE OWL TO SAVE ANOTHER?
