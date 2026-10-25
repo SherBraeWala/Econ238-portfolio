@@ -1,5 +1,7 @@
 ## An Envelope With No Letter
 
+https://arjunaujla.substack.com/p/week-8-homework?r=9c1rw5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
 In October of 1990, an envelope arrived at the University of Maryland, addressed to an economist named Julian Simon. Inside was a check for five hundred seventy-six dollars and seven cents, and a sheet of metal prices. According to Simon, there was no letter. No congratulations, no concession, not even a "you got lucky."
 
 The check came from Paul Ehrlich, a Stanford biologist and, at the time, probably the most famous environmental scientist in America. Ehrlich had written a bestseller predicting mass starvation. He had sat on Johnny Carson's couch and told millions of Americans that the world was running out of room and running out of stuff. And ten years earlier, he had put his money where his mouth was. He bet Simon that five common metals would get more expensive over the 1980s, because a growing planet would use them up.
