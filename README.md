@@ -10,6 +10,7 @@
 -   [Week 5-shale Cover](covercustom.png)
 -   [Week 7](week7.md)
 -   [Week 7 Poster](Week7Poster.png)
+-   [Week 8](Week8.md)
 
 
 
