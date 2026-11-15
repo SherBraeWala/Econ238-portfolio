@@ -8,8 +8,6 @@ title: "Week 11 — Fish for Plastic"
 
 **Econ 238 · Week 11 · Batsh!t Crazy Environmental Idea** · Arjun Aujla
 
-[← View the one-page infographic](./infographic.html)
-
 ---
 
 ## TL;DR
