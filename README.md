@@ -12,6 +12,7 @@
 -   [Week 7 Poster](Week7Poster.png)
 -   [Week 8](Week8.md)
 -   [Week 11](Week11.md)
+-   [Week 11 infographic](Week11(infographic).html)
 
 
 
